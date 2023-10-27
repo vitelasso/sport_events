@@ -73,4 +73,5 @@ The BLoC was tested using the **bloc_test** library and several dependencies wer
 ## Improvements
 Since an app is never perfect some improvements i can think of (and didn't develop since the scope of the task was in fact a demo):
 1. Dependency injection (for instance using GetIt)
+2. I didn't include the tabBar in the detail view, since i take into consideration that it was a bug, since having a tab bar in there would, eventually break the navigation and UX of the app (please correct if i'm wrong)
 3. Even More extraction of Widgets
